@@ -143,7 +143,7 @@ class Play extends Phaser.Scene {
         //score add and text update
         this.p1Score += ship.points
         this.scoreLeft.text = this.p1Score
-        const explosionList = ['sfx-explosion', 'sfx-explosion2', 'sfx-explosion3', 'sfx-explosion4']
+        const explosionList = ['sfx-explosion', 'sfx-explosion2', 'sfx-explosion3', 'sfx-explosion4', 'sfx-explosion5']
         this.sound.play(Phaser.Math.RND.pick(explosionList))
         //add time to timer
         this.clock.delay += 5000

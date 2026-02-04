@@ -25,7 +25,7 @@ class Title extends Phaser.Scene{
             },
             fixedWidth: 0
         }
-        this.add.text(game.config.width/2, game.config.height/3 - borderUISize - borderPadding, 'ROCKET PATROL', titleConfig).setOrigin(0.5)
+        this.add.text(game.config.width/2, game.config.height/3 - borderUISize - borderPadding, '2 ROCKET 2 PATROL', titleConfig).setOrigin(0.5)
         titleConfig.backgroundColor = '#F3B141'
         titleConfig.color = '#843605'
         titleConfig.fontSize = '28px'

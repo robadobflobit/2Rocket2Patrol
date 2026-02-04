@@ -22,6 +22,7 @@ class Menu extends Phaser.Scene {
         this.load.audio('sfx-explosion2', './assets/sfx-explosion2.wav')
         this.load.audio('sfx-explosion3', './assets/sfx-explosion3.wav')
         this.load.audio('sfx-explosion4', './assets/sfx-explosion4.wav')
+        this.load.audio('sfx-explosion5', './assets/sfx-explosion5.wav')
         this.load.audio('sfx-shot', './assets/sfx-shot.wav')
     }
 
@@ -47,7 +48,7 @@ class Menu extends Phaser.Scene {
             fixedWidth: 0
         }
         // display menu text
-        this.add.text(game.config.width/2, game.config.height/2 - borderUISize - borderPadding, 'ROCKET PATROL', menuConfig).setOrigin(0.5)
+        this.add.text(game.config.width/2, game.config.height/2 - borderUISize - borderPadding, '2 ROCKET 2 PATROL', menuConfig).setOrigin(0.5)
         this.add.text(game.config.width/2, game.config.height/2, 'Use <> arrows to move and (F) to fire', menuConfig).setOrigin(0.5)
         menuConfig.backgroundColor = '#00FF00'
         menuConfig.color = '#000'

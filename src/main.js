@@ -11,10 +11,10 @@
 // Create 4 new explosion sound effects and randomize which one plays on impact (3)
 
 
-// Citations:
+// Citations/Resources:
 // Phaser 3 Notes on Canvas - Timer and Clock sections
 // Phaser 3 Docs - Timer, Clock, and Random Number Generator sections
-// "Adding a Countdown Timer - Memory Match in Phaser 3 - Part 6" by ourcade on YouTube loosely
+// "Adding a Countdown Timer - Memory Match in Phaser 3 - Part 6" by ourcade on YouTube 
 // 
 
 // Side note, I did this 90% of this with my laptop connected to an external monitor with a refresh rate that is 3 times that of my laptop's. I'm doing the last 10% without that monitor while writing this and I'm seeing in real time how much slower the game functions and it's pretty funny.
