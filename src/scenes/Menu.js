@@ -19,6 +19,9 @@ class Menu extends Phaser.Scene {
         //load audio
         this.load.audio('sfx-select', './assets/sfx-select.wav')
         this.load.audio('sfx-explosion', './assets/sfx-explosion.wav')
+        this.load.audio('sfx-explosion2', './assets/sfx-explosion2.wav')
+        this.load.audio('sfx-explosion3', './assets/sfx-explosion3.wav')
+        this.load.audio('sfx-explosion4', './assets/sfx-explosion4.wav')
         this.load.audio('sfx-shot', './assets/sfx-shot.wav')
     }
 
@@ -60,7 +63,7 @@ class Menu extends Phaser.Scene {
             game.settings = {
                 spaceshipSpeed: 3,
                 fastspaceshipSpeed: 4,
-                gameTimer: 6000
+                gameTimer: 60000
             }
             this.sound.play('sfx-select')
             this.scene.start('playScene')

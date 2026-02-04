@@ -7,6 +7,7 @@ class Title extends Phaser.Scene{
     preload() {
         this.load.audio('sfx-select', './assets/sfx-select.wav')
         this.load.image('titlescreen', './assets/titlescreen.png')
+        this.load.audio('music', './assets/mozartforaliens.wav')
     }
     
     create() {
@@ -36,6 +37,7 @@ class Title extends Phaser.Scene{
         if(Phaser.Input.Keyboard.JustDown(keyFIRE)) {
             this.sound.play('sfx-select')
             this.scene.start('menuScene')
+            this.sound.play('music', {loop: true})
         }
     }
 }
