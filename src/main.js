@@ -14,7 +14,6 @@
 // Citations:
 // Phaser 3 Notes on Canvas - Timer and Clock sections
 // Phaser 3 Docs - Timer, Clock, and Random Number Generator sections
-// Phaser Examples - 
 // "Adding a Countdown Timer - Memory Match in Phaser 3 - Part 6" by ourcade on YouTube loosely
 // 
 
